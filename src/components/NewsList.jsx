@@ -3,7 +3,7 @@ import { newsData } from '../data/mockData';
 
 export default function NewsList() {
   return (
-    <div className="pt-12 pb-14 min-h-screen bg-white">
+    <div className="bg-white">
       {newsData.map(news => (
         <NewsItem key={news.id} news={news} />
       ))}
